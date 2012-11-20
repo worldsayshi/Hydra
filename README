@@ -31,13 +31,13 @@ Haskell. Hydra is still in active development.
 How to get Hydra
 ----------------
 
-The latest development version of Hydra can be obtained from its darcs
+The latest development version of Hydra can be obtained from its git
 repository by issuing the following command:
 
 > darcs get http://patch-tag.com/r/Hydra/pullrepo Hydra
 
 You can also browse the sources in your browser:
-http://patch-tag.com/r/Hydra/snapshot/current/content/pretty
+https://github.com/giorgidze/Hydra
 
 
 How to install Hydra
@@ -45,7 +45,7 @@ How to install Hydra
 
 In order to install Hydra you need to have GHC (http://www.haskell.org/ghc/)
 version 6.10 (or later) available on your system. In addition, you need LLVM
-(http://llvm.org/) version 2.6.
+(http://llvm.org/) version 2.9 (or 2.8).
 
 The implementation of Hydra is packaged using Cabal. So it should be straight
 forward to install. Simply issue the following commands in the directory that
